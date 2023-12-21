@@ -74,6 +74,11 @@ footer {
 .footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .col {
   margin: 10px;
