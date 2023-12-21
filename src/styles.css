@@ -6,11 +6,11 @@ body {
 
 header {
   display: flex;
-
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/header-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,11 +22,17 @@ header h3 {
   color: rgb(248, 250, 215);
   line-height: 1.5;
   letter-spacing: 3px;
+  padding: 20px;
+  background-color: #22638b8b;
+  border-radius: 30px;
 }
 header h1 {
   color: rgb(61, 235, 232);
   line-height: 2;
   letter-spacing: 4px;
+  padding: 20px;
+  background-color: #4d265b8c;
+  border-radius: 30px;
 }
 header h2 {
   color: antiquewhite;
@@ -49,7 +55,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/indigenous-art.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,8 +73,9 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .col {
-  margin: 92px;
+  margin: 10px;
 }
+
 @media (max-width: 800px) {
   .container {
     font-size: x-small;
