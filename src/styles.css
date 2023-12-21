@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -22,9 +22,10 @@ header h3 {
   color: rgb(248, 250, 215);
   line-height: 1.5;
   letter-spacing: 3px;
-  padding: 20px;
+
   background-color: #22638b8b;
   border-radius: 30px;
+  padding: 20px;
 }
 header h1 {
   color: rgb(61, 235, 232);
@@ -33,6 +34,7 @@ header h1 {
   padding: 20px;
   background-color: #4d265b8c;
   border-radius: 30px;
+  padding: 20px;
 }
 header h2 {
   color: antiquewhite;
@@ -46,7 +48,8 @@ header a {
   color: antiquewhite;
   text-decoration: none;
   background-color: rgba(127, 244, 255, 0.359);
-  padding: 10px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 footer {
@@ -75,7 +78,12 @@ footer {
 .col {
   margin: 10px;
 }
-
+footer a {
+  background-color: #5b093da0;
+  color: goldenrod;
+  border-radius: 30px;
+  padding: 15px;
+}
 @media (max-width: 800px) {
   .container {
     font-size: x-small;
