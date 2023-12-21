@@ -26,6 +26,7 @@ header h3 {
   background-color: #22638b8b;
   border-radius: 30px;
   padding: 20px;
+  font-size: 25px;
 }
 header h1 {
   color: rgb(61, 235, 232);
@@ -35,10 +36,12 @@ header h1 {
   background-color: #4d265b8c;
   border-radius: 30px;
   padding: 20px;
+  margin: 100px;
 }
 header h2 {
   color: antiquewhite;
   line-height: 1.5;
+  font-size: 25px;
 }
 header a {
   margin-top: 25px;
