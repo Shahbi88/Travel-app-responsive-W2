@@ -106,10 +106,22 @@ img {
 .card-body {
   margin-bottom: 20px;
 }
+.section-3 {
+  align-items: center;
+  margin: auto;
+  margin: auto;
+  justify-content: center;
+}
+iframe {
+  align-items: center;
+  margin: 10px;
+  padding: 18px;
+  background-color: rgba(206, 102, 32, 0.668);
+}
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: ;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -123,7 +135,11 @@ footer {
 
   color: rgb(248, 250, 215);
 }
-
+.footer-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .col {
   margin: 10px;
 }
