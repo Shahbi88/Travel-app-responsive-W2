@@ -129,4 +129,7 @@ footer a {
   .container {
     font-size: x-small;
   }
+  img {
+    max-width: 100%;
+  }
 }
