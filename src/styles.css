@@ -89,6 +89,23 @@ img {
   text-align: center;
   justify-content: center;
 }
+.section-2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card-text {
+  margin-top: 40px;
+  word-spacing: 20px;
+}
+.card-body {
+  margin-bottom: 20px;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -129,8 +146,5 @@ footer a {
 @media (max-width: 800px) {
   .container {
     font-size: x-small;
-  }
-  img {
-    max-width: 100%;
   }
 }
