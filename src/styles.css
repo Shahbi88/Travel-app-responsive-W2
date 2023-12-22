@@ -4,8 +4,9 @@
 header {
   display: flex;
   text-align: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/header-pic.jpg");
@@ -32,7 +33,7 @@ header h1 {
   padding: 15px;
   background-color: #4d265b8c;
   border-radius: 30px;
-  padding: 20px;
+  padding: 15px;
   margin: 100px;
 }
 header h2 {
@@ -63,14 +64,14 @@ p {
 img {
   border-radius: 20px;
 }
-section {
+.section-1 {
   display: flex;
   max-width: 1400px;
   padding: 30px;
   background-color: rgba(62, 202, 202, 0.609);
   border-radius: 15px;
 }
-section .col {
+.section-1 .col {
   border: 15px purple;
 }
 
