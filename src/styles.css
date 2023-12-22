@@ -14,7 +14,7 @@ header {
     url("../images/header-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  height: 300px;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -55,6 +55,41 @@ header a {
   padding: 20px;
 }
 
+.type {
+  max-width: 400px;
+  height: 300px;
+}
+p {
+  text-align: center;
+  display: block;
+}
+img {
+  border-radius: 20px;
+}
+section {
+  padding: 30px;
+  background-color: rgba(62, 202, 202, 0.84);
+}
+section div {
+  border: 20px solid #b08e70;
+  border-radius: 10px;
+  margin: auto;
+  display: grid;
+  grid-column: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ecebf2d6;
+}
+.p-1 {
+  display: block;
+}
+.type-name {
+  text-align: center;
+  align-items: center;
+  display: block;
+  font-size: larger;
+}
 footer {
   display: flex;
   flex-direction: column;
