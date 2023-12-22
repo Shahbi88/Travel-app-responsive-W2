@@ -1,9 +1,6 @@
 .container {
 }
 
-body {
-}
-
 header {
   display: flex;
   text-align: center;
@@ -12,10 +9,10 @@ header {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/header-pic.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 500px;
   font-family: "Courier New", Courier, monospace;
+  margin-bottom: 30px;
 }
 
 header h3 {
@@ -32,7 +29,7 @@ header h1 {
   color: rgb(61, 235, 232);
   line-height: 2;
   letter-spacing: 4px;
-  padding: 20px;
+  padding: 15px;
   background-color: #4d265b8c;
   border-radius: 30px;
   padding: 20px;
@@ -67,28 +64,29 @@ img {
   border-radius: 20px;
 }
 section {
+  display: flex;
+  max-width: 1400px;
   padding: 30px;
-  background-color: rgba(62, 202, 202, 0.84);
+  background-color: rgba(62, 202, 202, 0.609);
+  border-radius: 15px;
 }
-section div {
-  border: 20px solid #b08e70;
-  border-radius: 10px;
-  margin: auto;
-  display: grid;
-  grid-column: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #ecebf2d6;
+section .col {
+  border: 15px purple;
 }
+
 .p-1 {
   display: block;
 }
-.type-name {
+.col {
   text-align: center;
   align-items: center;
   display: block;
   font-size: larger;
+}
+.type {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 footer {
   display: flex;
