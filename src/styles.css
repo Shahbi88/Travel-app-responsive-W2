@@ -169,6 +169,7 @@ footer a {
     max-width: fit-content;
     align-items: center;
     justify-content: center;
+    font-size: smaller;
   }
   .card-body {
     align-items: center;
@@ -214,13 +215,19 @@ footer a {
     grid-template-rows: 1fr 1fr;
     background-color: #bad7d450;
     padding: 30px;
+    justify-content: center;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+    margin: 10px;
   }
   footer {
     display: flex;
     flex-direction: column;
     height: fit-content;
   }
-  footer .col-f {
-    margin: auto;
+  .col-f {
+    margin: 25px;
   }
 }
