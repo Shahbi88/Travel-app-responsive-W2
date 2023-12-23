@@ -122,7 +122,8 @@ img {
   margin: 20px;
 }
 .section-3 {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #bad7d450;
   padding: 30px;
 }
@@ -202,9 +203,17 @@ footer a {
   }
   .section-2 {
     display: block;
+    margin: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .section-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #bad7d450;
+    padding: 30px;
   }
   footer {
     display: flex;
