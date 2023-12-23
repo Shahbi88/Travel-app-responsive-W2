@@ -96,6 +96,7 @@ img {
   align-items: center;
   text-align: center;
   justify-content: center;
+  max-width: 100%;
 }
 .section-2 {
   align-items: center;
@@ -118,6 +119,8 @@ img {
 }
 .section-3 {
   display: block;
+  background-color: #bad7d450;
+  padding: 30px;
 }
 iframe {
   align-items: center;
@@ -142,6 +145,7 @@ footer {
   align-items: center;
   text-align: center;
   line-height: 40px;
+  margin-top: 40px;
 }
 footer strong {
   word-spacing: 4px;
@@ -156,6 +160,16 @@ footer a {
   padding: 15px;
 }
 @media (max-width: 800px) {
+  .container {
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
   .section-1 {
     max-width: 780px;
     padding: 10px;
@@ -172,6 +186,9 @@ footer a {
     padding: 20px;
     margin: 10px;
   }
+  img {
+    max-width: 100%;
+  }
   .card {
     margin: auto;
   }
@@ -187,6 +204,6 @@ footer a {
     height: fit-content;
   }
   footer .col-f {
-    margin: 30px;
+    margin: auto;
   }
 }
